@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fruit Product Listing</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: 
+            linear-gradient(to top right, #FF6347 0%, #FF6347  100%),
+            linear-gradient(to top left, #FFD700 0%, #FFD700  100%),
+            linear-gradient(to bottom right, #eded65 0%, #eded65  100%),
+            linear-gradient(to bottom left, #8A2BE2 0%, #8A2BE2  100%);
+        background-size: 50% 50%;
+        background-repeat: no-repeat;
+        background-position: top left, top right, bottom left, bottom right;
+    }
+    
+    .container {
+        max-width: 1200px;
+        margin: 20px auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .product {
+        width: calc(50% - 20px);
+        margin-bottom: 40px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+    }
+    .product img {
+        width: 128px;
+        height: 128px;
+        display: block;
+        margin: 0 auto;
+        padding-top: 10px; /* Adjust as needed */
+    }
+    .product-info {
+        text-align: center;
+        padding: 20px;
+    }
+    .product-title {
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    .product-price {
+        font-size: 16px;
+        color: #666;
+        margin-bottom: 15px;
+    }
+    .product-description {
+        font-size: 14px;
+        color: #333;
+        margin-bottom: 15px;
+    }
+    .buy-btn {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+    }
+    .buy-btn:hover {
+        background-color: #45a049;
+    }
+    h1 {
+        text-align: center;
+        color: #fff;
+        text-shadow: 2px 2px 4px #000000;
+        padding: 20px 0;
+    }
+    
+</style>
+
+<center>
+    <h2>Fruit Store</h2>
+</center>
+<div class="container">
+    <div class="product">
+        <img src="images/apple.png" alt="Apple">
+        <div class="product-info">
+            <div class="product-title">Apple</div>
+            <div class="product-price">&#8377; 120 per KG</div>
+            <div class="product-description">Apples are a good source of fiber and vitamin C. They are low in calories and have no fat or cholesterol.</div>
+            <a href="#" class="buy-btn">Add to Cart</a>
+        </div>
+    </div>
+    <div class="product">
+        <img src="images/mango.png" alt="Mango">
+        <div class="product-info">
+            <div class="product-title">Mango</div>
+            <div class="product-price">&#8377; 150 per KG</div>
+            <div class="product-description">Mangoes are rich in vitamins, minerals, and antioxidants. They are a good source of vitamin A and vitamin C.</div>
+            <a href="#" class="buy-btn">Add to Cart</a>
+        </div>
+    </div>
+    <div class="product">
+        <img src="images/bananas.png" alt="Banana">
+        <div class="product-info">
+            <div class="product-title">Banana</div>
+            <div class="product-price">&#8377; 80 per KG</div>
+            <div class="product-description">Bananas are high in potassium and contain good levels of protein and dietary fiber. They are also rich in vitamins B6 and C.</div>
+            <a href="#" class="buy-btn">Add to Cart</a>
+        </div>
+    </div>
+    <div class="product">
+        <img src="images/grapes.png" alt="Grape">
+        <div class="product-info">
+            <div class="product-title">Grape</div>
+            <div class="product-price">&#8377; 100 per KG</div>
+            <div class="product-description">Grapes are rich in antioxidants and vitamin C. They are also a good source of fiber and relatively low in calories.</div>
+            <a href="#" class="buy-btn">Add to Cart</a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
