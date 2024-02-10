@@ -1,3 +1,4 @@
+<!-- Write a PHP program to find the largest of three numbers using ternary Operator. -->
 <?php
 
 $a = 10;

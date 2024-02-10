@@ -1,3 +1,4 @@
+<!-- Get random values from array -->
 <?php
 
 $array = array('a', 'b', 'c', 'd', 'e');

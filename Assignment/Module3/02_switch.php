@@ -1,3 +1,4 @@
+<!-- write a PHP program for find „Thursday‟ in week using switch Function. -->
 <?php
 
 $day = "Thursday";

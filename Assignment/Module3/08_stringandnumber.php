@@ -1,3 +1,4 @@
+<!-- What will be the values of $a and $b after the code below is executed? -->
 <?php
 
 $a = '1';

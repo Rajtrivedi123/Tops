@@ -1,3 +1,4 @@
+<!-- Write program to remove duplicate values from array -->
 <?php
 
 $array = array(1, 2, 4, 3, 4, 5);

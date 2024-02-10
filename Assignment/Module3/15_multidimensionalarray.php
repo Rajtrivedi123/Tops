@@ -1,3 +1,4 @@
+<!-- Declare a Multi Dimensioned array of floats called balances having Three rows and five columns. -->
 <?php
 
 $balances = array(
